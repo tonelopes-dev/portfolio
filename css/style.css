@@ -429,6 +429,10 @@ section{
     transition-delay: .3s;
 }
 
+.portfolio .box-container .box .content p {
+    font-size: 18px;
+}
+
 .portfolio .box-container .box:hover .content h3{
     transform: translateY(0rem);
     opacity: 1;

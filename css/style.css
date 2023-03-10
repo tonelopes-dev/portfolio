@@ -418,9 +418,12 @@ section{
 
 .portfolio .box-container .box:hover .content{
     transform: scale(1);
+    opacity: 0.9;
+    padding: 8px;
 }
 
 .portfolio .box-container .box .content h3{
+    text-align: center;
     font-size: 2.5rem;
     color:var(--black);
     text-transform: uppercase;
@@ -430,7 +433,8 @@ section{
 }
 
 .portfolio .box-container .box .content p {
-    font-size: 18px;
+    font-size: 16px;
+    color:var(--black);
 }
 
 .portfolio .box-container .box:hover .content h3{
@@ -473,6 +477,13 @@ section{
 
 .contact form .box:focus{
     box-shadow: var(--box-shadow-inset);
+}
+
+img.mailchimp {
+    margin: auto;
+    display: block;
+    height: 25px;
+    margin-top: 15px;
 }
 
 /*fazer no ultimo dia*/

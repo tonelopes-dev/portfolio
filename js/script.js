@@ -15,10 +15,11 @@ function checkMode() {
   if (darkOn) {
     localStorage.setItem("dark", "on");
     document.body.classList.add("active");
-    
+    themeToggler.classList.add("fa-sun");
   } else {
     document.body.classList.remove("active");
     localStorage.clear();
+    themeToggler.classList.remove("fa-sun");
   }
   
 }
@@ -38,25 +39,6 @@ function darkMode() {
 
 checkMode();
 
-/* themeToggler.onclick = () =>{
-    themeToggler.classList.toggle('fa-sun');
-    if(themeToggler.classList.contains('fa-sun')){
-        document.body.classList.add('active');
-    }else{
-        document.body.classList.remove('active');
-    }
-} */
-
-/* function clickMenu() {
-    
-    x = document.getElementById("mobile")
-    if ( x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-    
-} */
 
 let menuMobile = document.querySelector("#menu-btn");
 let header = document.querySelector("#mobile");
@@ -68,3 +50,6 @@ menuMobile.onclick = () => {
     header.classList.remove("mobile");
   }
 };
+
+
+

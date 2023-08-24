@@ -8,7 +8,7 @@ Com uma grande paixão pela criação de soluções web personalizadas e funcion
 
 Fique à vontade para navegar pelo meu portfólio de projetos e entrar em contato comigo caso esteja interessado em colaborar em um projeto. Estou ansioso para ouvir sobre suas ideias e como posso ajudar a transformá-las em realidade!
 
-Acesse aqui -> https://tonelopes.github.io/portfolio/
+Acesse aqui -> https://tonelopes-dev.github.io/portfolio/
 
 ### TECNOLOGIAS USADAS
 > HTML,
